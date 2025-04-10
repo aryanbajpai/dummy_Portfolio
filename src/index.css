@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes floatUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px); /* Start lower */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* End at normal position */
+  }
+}
+
+.float-up {
+  animation: floatUp 1.2s ease-in-out;
+}
+.float-up-img {
+  animation: floatUp 1.5s ease-in;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.blink {
+  animation: blink 1.2s infinite;
+}
+
+.nunito-family {
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
