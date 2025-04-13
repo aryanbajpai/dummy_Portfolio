@@ -8,6 +8,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  @apply font-nunito;
+}
+
 @keyframes floatUp {
   0% {
     opacity: 0;
