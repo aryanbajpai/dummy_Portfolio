@@ -391,17 +391,17 @@ const Portfolio = () => {
           {[
             {
               icon: <FaEnvelope />,
-              link: "mailto:john.doe@example.com",
+              link: "mailto:bajpaiaryan1@gmail.com",
               label: "Email",
             },
             {
               icon: <FaGithub />,
-              link: "https://github.com/yourusername",
+              link: "https://github.com/aryanbajpai",
               label: "GitHub",
             },
             {
               icon: <FaLinkedin />,
-              link: "https://linkedin.com/in/yourusername",
+              link: "https://www.linkedin.com/in/aryan-bajpai-72a021238/",
               label: "LinkedIn",
             },
           ].map((item, idx) => (

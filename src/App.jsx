@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import BG1 from './backgrounds/BG1/BG1';
-import Portfolio from './backgrounds/BG3/Portfolio';
-import Portfolio2 from './backgrounds/Portfolio/Portfolio2.jsx';
-import Portfolio1 from './backgrounds/BG1/Portfolio1.jsx';
+import Portfolio from './backgrounds/Portfolio3/Portfolio';
+import Portfolio2 from './backgrounds/Portfolio2/Portfolio2.jsx';
+import Portfolio1 from './backgrounds/Portfolio1/Portfolio1.jsx';
 
 const App = () => {
   return (
